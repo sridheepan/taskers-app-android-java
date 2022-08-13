@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/taskersHomeScreenFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_taskers_home"
+        />
+    <item
+        android:id="@+id/myHiresFragment3"
+        android:title="My Hires"
+        android:icon="@drawable/ic_my_hires"
+        />
+    <item
+        android:id="@+id/profileScreenFragment"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        />
+</menu>

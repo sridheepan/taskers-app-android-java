@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskersHomeScreenFragment">
+
+    <fragment
+        android:id="@+id/taskersHomeScreenFragment"
+        android:name="com.example.g2_nirav_sridheepan.fragments.TaskersHomeScreenFragment"
+        android:label="fragment_taskers_home_screen"
+        tools:layout="@layout/fragment_taskers_home_screen" >
+        <action
+            android:id="@+id/action_taskersHomeScreenFragment_to_taskerDetailScreenFragment"
+            app:destination="@id/taskerDetailScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileScreenFragment"
+        android:name="com.example.g2_nirav_sridheepan.fragments.ProfileScreenFragment"
+        android:label="fragment_profile_screen"
+        tools:layout="@layout/fragment_profile_screen" />
+    <fragment
+        android:id="@+id/taskerDetailScreenFragment"
+        android:name="com.example.g2_nirav_sridheepan.fragments.TaskerDetailScreenFragment"
+        android:label="fragment_tasker_detail_screen"
+        tools:layout="@layout/fragment_tasker_detail_screen" >
+        <argument
+            android:name="tasker"
+            app:argType="com.example.g2_nirav_sridheepan.models.Tasker" />
+    </fragment>
+    <fragment
+        android:id="@+id/myHiresFragment3"
+        android:name="com.example.g2_nirav_sridheepan.fragments.MyHiresFragment"
+        android:label="fragment_my_hires"
+        tools:layout="@layout/fragment_my_hires" >
+        <action
+            android:id="@+id/action_myHiresFragment3_to_hireDetailFragment"
+            app:destination="@id/hireDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hireDetailFragment"
+        android:name="com.example.g2_nirav_sridheepan.fragments.HireDetailFragment"
+        android:label="fragment_hire_detail"
+        tools:layout="@layout/fragment_hire_detail" >
+        <argument
+            android:name="selectedHire"
+            app:argType="com.example.g2_nirav_sridheepan.models.Hire" />
+    </fragment>
+</navigation>

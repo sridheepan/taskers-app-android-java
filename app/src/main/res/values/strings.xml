@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">G2_Nirav_Sridheepan</string>
+    <string name="login_to_continue">Login to continue...</string>
+    <string name="hello_welcome_to_tasker">Hello! Welcome to Tasker</string>
+    <string name="tasker">TASKER</string>
+    <string name="username">Username</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="date">Select Date</string>
+    <string name="time">Select Time</string>
+    <string name="promocode">Promocode:</string>
+    <string name="schedule_date">Schedule Date:</string>
+    <string name="enter_promocode">Enter Promocode</string>
+    <string name="apply">Apply</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hire_confirmation">Hire Confirmation</string>
+    <string name="an_email_with_a_receipt_has_been_sent_to_your_email">An email with a receipt has been sent to your email</string>
+    <string name="hire_details">Hire Details</string>
+</resources>
